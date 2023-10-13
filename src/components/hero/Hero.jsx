@@ -3,7 +3,7 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
 } from "react-icons/ai";
-import { SiGooglepodcasts } from "react-icons/si";
+import { SiGooglescholar } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -84,7 +84,7 @@ const Hero = () => {
               <li>
                 <a href="">
                   {" "}
-                  <SiGooglepodcasts className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiGooglescholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
