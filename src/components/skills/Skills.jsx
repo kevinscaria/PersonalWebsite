@@ -18,7 +18,7 @@ import { IoLogoNodejs } from "react-icons/io";
 
 const Skills = ({ darkMode }) => {
   return (
-    <div id="skills">
+    <div id="about me">
       <div className=" container m-auto  mt-16">
         {/* heading */}
         <div data-aos="fade-up" className="relative mb-5">
