@@ -4,8 +4,8 @@ import Footer from "../components/footer/Footer";
 import Hero from "../components/hero/Hero";
 import NavBar from "../components/navbar/NavBar";
 import Resume from "../components/resume/Resume";
-import Skills from "../components/skills/Skills";
-import Work from "../components/work/Work";
+import Skills from "../components/aboutme/AboutMe";
+import Work from "../components/papers/Papers";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);
