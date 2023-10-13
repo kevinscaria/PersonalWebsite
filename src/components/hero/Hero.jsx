@@ -3,8 +3,8 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
   SiSemanticscholar,
-  SiGooglescholar,
 } from "react-icons/ai";
+import { SiGoogleScholar } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
