@@ -1,11 +1,12 @@
 import React, { useState } from "react";
+import NavBar from "../components/navbar/NavBar";
+import Hero from "../components/hero/Hero";
+import AboutMe from "../components/aboutme/AboutMe";
+import News from "../components/news/News";
+import Papers from "../components/papers/Papers";
+import HonorsAndAwards from "../components/honorsandawards/HonorsAndAwards";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
-import Hero from "../components/hero/Hero";
-import NavBar from "../components/navbar/NavBar";
-import AboutMe from "../components/aboutme/AboutMe";
-import Papers from "../components/papers/Papers";
-import HonorsAndAwards from "../components/honorsandawards/Honors&Awards";
 
 const Home = () => {
   const [darkMode, setDarkMode] = useState(false);

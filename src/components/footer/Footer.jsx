@@ -40,7 +40,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>Kevin Joseph Scaria </span> All rights reserved
+          | Copyright &copy; <span>| Kevin Joseph Scaria | </span> All rights reserved |
           <a href="#"></a> |
         </div>
       </div>
