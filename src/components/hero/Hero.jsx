@@ -3,7 +3,9 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
 } from "react-icons/ai";
-import { SiGooglescholar } from "react-icons/si";
+import { 
+  SiGooglescholar, 
+  SiSemanticscholar } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -70,9 +72,9 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/kevinscaria" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/thegraydleguy" target="_blank" rel="noopener noreferrer">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
+                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
@@ -82,21 +84,21 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://scholar.google.com/citations?user=nsYohr8AAAAJ&hl=en">
                   {" "}
                   <SiGooglescholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.semanticscholar.org/author/Kevin-Scaria/2187874548">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiSemanticscholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/thegraydleguy" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/kevinscaria" target="_blank" rel="noopener noreferrer">
                   {" "}
-                  <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
             </ul>
