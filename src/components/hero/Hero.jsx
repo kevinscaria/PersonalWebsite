@@ -21,14 +21,16 @@ const Hero = () => {
               data-aos="fade-up"
               className=" text-5xl font-bold sm:text-[2rem]"
             >
-              Hello, I'm John  Doe
+              Hello, I'm Kevin Scaria
             </h2>
             <TypeAnimation
               data-aos="fade-up"
               sequence={[
-                "Web Developer",
+                "Machine Learning Engineer",
                 2000,
-                "Freelancer",
+                "Data Scientist",
+                2000,
+                "Research Engineer",
                 2000,
                 "",
               ]}
@@ -41,7 +43,7 @@ const Hero = () => {
               // data-aos="fade-up"
               className=" text-[1.1rem] font-medium w-3/4 md:w-full text-gray-600 sm:text-[.95rem]"
             >
-              Lorem ipsum dolor sit amet consectetur
+              Second year MS student at Arizona State University majoring in Information Technology
             </p>
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
@@ -82,13 +84,13 @@ const Hero = () => {
               <li>
                 <a href="">
                   {" "}
-                  <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <AiFillGScholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <FaFacebook className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <FaSemanticScholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
