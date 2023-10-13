@@ -2,9 +2,8 @@ import React from "react";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
-  SiSemanticscholar,
 } from "react-icons/ai";
-import { SiGoogleScholar } from "react-icons/si";
+import { SiSemanticscholar, SiGoogleScholar } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
