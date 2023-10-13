@@ -2,9 +2,10 @@ import React from "react";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
-  AiFillInstagram,
+  SiSemanticscholar,
+  SiGooglescholar,
 } from "react-icons/ai";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
@@ -70,13 +71,13 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="">
+                <a href="https://github.com/kevinscaria">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://www.linkedin.com/in/kevin-scaria/">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
@@ -84,17 +85,17 @@ const Hero = () => {
               <li>
                 <a href="">
                   {" "}
-                  <AiFillGScholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiGooglescholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
                 <a href="">
                   {" "}
-                  <FaSemanticScholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiSemanticscholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
+                <a href="https://twitter.com/thegraydleguy">
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
