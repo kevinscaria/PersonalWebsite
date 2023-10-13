@@ -3,7 +3,7 @@ import {
   AiFillTwitterCircle,
   AiFillGithub,
 } from "react-icons/ai";
-// import { SiGoogleScholar } from "react-icons/si";
+import { SiGoogleScholar } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -70,13 +70,13 @@ const Hero = () => {
               className=" flex gap-5"
             >
               <li>
-                <a href="https://github.com/kevinscaria">
+                <a href="https://github.com/kevinscaria" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/kevin-scaria/">
+                <a href="https://www.linkedin.com/in/kevin-scaria/" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
@@ -84,7 +84,7 @@ const Hero = () => {
               <li>
                 <a href="">
                   {" "}
-                  <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
+                  <SiGoogleScholar className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
               </li>
               <li>
@@ -94,7 +94,7 @@ const Hero = () => {
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/thegraydleguy">
+                <a href="https://twitter.com/thegraydleguy" target="_blank" rel="noopener noreferrer">
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
