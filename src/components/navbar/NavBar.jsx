@@ -18,11 +18,11 @@ const navItems = [
   },
   {
     id: 3,
-    name: "publications",
+    name: "papers",
   },
   {
     id: 4,
-    name: "honors and awars",
+    name: "honors & awards",
   },
   {
     id: 5,

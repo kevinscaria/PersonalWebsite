@@ -16,7 +16,7 @@ import { SiNextdotjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
-const Skills = ({ darkMode }) => {
+const AboutMe = ({ darkMode }) => {
   return (
     <div id="about me">
       <div className=" container m-auto  mt-16">
@@ -152,4 +152,4 @@ const Skills = ({ darkMode }) => {
   );
 };
 
-export default Skills;
+export default AboutMe;

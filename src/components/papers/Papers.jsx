@@ -1,9 +1,9 @@
 import React from "react";
 import WorkCard from "../../chip/WorkCard";
 
-const Work = () => {
+const Papers = () => {
   return (
-    <div id="works" className="container m-auto mt-16">
+    <div id="papers" className="container m-auto mt-16">
       {/* heading */}
       <div 
       data-aos="fade-up"
@@ -25,4 +25,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Papers;
